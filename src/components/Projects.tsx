@@ -21,7 +21,7 @@ export default function Projects() {
         "You found the blur? Now find the real secrets: practice and patience.",
       demoLink: "#",
       codeRepoLink: "#",
-      releaseDate: "2025-06-01T00:00:00",
+      releaseDate: "2026-01-01T00:00:00",
     },
     {
       projectName: "🍪 Cookie Thief",
@@ -29,7 +29,7 @@ export default function Projects() {
         "No cookies here, just crumbs of knowledge. Bake your own code.",
       demoLink: "#",
       codeRepoLink: "#",
-      releaseDate: "2025-07-01T00:00:00",
+      releaseDate: "2026-01-01T00:00:00",
     },
     {
       projectName: "🧩 Puzzle Master",
@@ -37,7 +37,7 @@ export default function Projects() {
         "Solving puzzles beats hacking CSS. Level up your skills.",
       demoLink: "#",
       codeRepoLink: "#",
-      releaseDate: "2025-08-01T00:00:00",
+      releaseDate: "2026-01-01T00:00:00",
     },
     {
       projectName: "🧙‍♂️ Code Wizard",
@@ -45,7 +45,7 @@ export default function Projects() {
         "Magic isn't in blur removal. It's in your fingertips. Cast some code spells.",
       demoLink: "#",
       codeRepoLink: "#",
-      releaseDate: "2025-09-01T00:00:00",
+      releaseDate: "2026-01-01T00:00:00",
     },
   ];
 
