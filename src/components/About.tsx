@@ -65,6 +65,12 @@ export default function About() {
             description="Developed PHP backend and jQuery frontend for optimized healthcare workflows."
             link="https://pabau.com/"
           />
+          <Experience
+            experience="FULL STACK INTERN AT VALTECH"
+            year={2025}
+            description="Automated Excel-to-Word documents with robust backend and scalable frontend."
+            link="https://www.valtech.com/"
+          />
         </div>
       </motion.div>
 
