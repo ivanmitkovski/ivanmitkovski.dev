@@ -82,7 +82,7 @@ export default function About() {
         className="flex flex-wrap justify-center md:justify-start items-center space-x-4 mt-8"
       >
         <a
-          href="https://github.com/ivanmitkovski00"
+          href="https://github.com/ivanmitkovski"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:scale-110 transition-transform duration-200"
@@ -100,7 +100,7 @@ export default function About() {
           <FontAwesomeIcon icon={faLinkedin} size="2x" color="#E0E0E0" />
         </a>
         <a
-          href="mailto:ivanmitkovski2@gmail.com"
+          href="mailto:contact@ivanmitkovski.dev"
           className="hover:scale-110 transition-transform duration-200"
           title="Email"
         >
