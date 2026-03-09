@@ -8,12 +8,12 @@
 ## Description
 
 Welcome to **ivanmitkovski.dev**!  
-This is the personal portfolio of **Ivan Mitkovski**—a 21-year-old software engineer from Skopje, Macedonia—showcasing modern, user-focused web experiences.  
+This is the personal portfolio of **Ivan Mitkovski** a 21-year-old software engineer from Skopje, Macedonia showcasing modern, user-focused web experiences.  
 Built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**, and enhanced by **Framer Motion** animations, it highlights my curated project showcases, “About Me” narrative, and built-in contact form.
 
 ---
 
-## 🚀 Technologies Used
+## Technologies Used
 
 - **React**  
 - **TypeScript**  
@@ -23,24 +23,23 @@ Built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**, and enhanc
 
 ---
 
-## 📄 About Me
+## About Me
 
 Hi, I’m **Ivan Mitkovski**, a passionate software engineer who loves crafting clean, scalable, and responsive web applications.  
-I’m driven by continuous learning and enjoy translating design ideas into high-performance code.  
-Feel free to explore my work and get in touch!
+I’m driven by continuous learning and enjoy translating design ideas into high-performance code. Feel free to explore my work and get in touch!
 
 ---
 
-## 🌎 Live Demo
+## Live Demo
 
-➡️ [View the live site](https://www.ivanmitkovski.dev/)
+  [View the live site](https://www.ivanmitkovski.dev/)
 
 ---
 
-## 📬 Contact
+## Contact
 
-- ✉️ Email: [contact@ivanmitkovski.dev](mailto:contact@ivanmitkovski.dev)  
-- 🔗 LinkedIn: [linkedin.com/in/ivanmitkovski](https://www.linkedin.com/in/ivanmitkovski)  
+- Email: [contact@ivanmitkovski.dev](mailto:contact@ivanmitkovski.dev)  
+- LinkedIn: [linkedin.com/in/ivanmitkovski](https://www.linkedin.com/in/ivanmitkovski)  
 
 ---
 
