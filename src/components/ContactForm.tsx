@@ -45,8 +45,8 @@ export const ContactForm: FC = () => {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto px-4 md:px-8 py-16 mt-28 rounded-2xl shadow-lg bg-white dark:bg-zinc-900 transition-all">
-      <h2 className="text-4xl font-bold text-center text-zinc-800 dark:text-white mb-12">
+    <section className="max-w-4xl mx-auto px-4 md:px-8 py-14 rounded-2xl border border-zinc-800/80 bg-[#111317] shadow-[0_18px_60px_rgba(0,0,0,0.7)] transition-all">
+      <h2 className="text-4xl font-bold text-center text-white mb-10">
         Get In Touch
       </h2>
 
@@ -56,7 +56,7 @@ export const ContactForm: FC = () => {
         </div>
       )}
       {status === "error" && (
-        <div className="text-red-500 text-center font-medium mb-6">
+        <div className="text-red-400 text-center font-medium mb-6">
           ❌ Oops! Something went wrong. Please try again.
         </div>
       )}
@@ -70,14 +70,14 @@ export const ContactForm: FC = () => {
         <div className="space-y-6">
           {fields.map(({ label, name, type, required, pattern }) => (
             <div key={name} className="flex flex-col">
-              <label className="mb-2 text-sm font-medium text-zinc-700 dark:text-zinc-300">
+              <label className="mb-2 text-sm font-medium text-zinc-300">
                 {label}
               </label>
               <input
                 {...register(name, { required, pattern })}
                 type={type}
                 placeholder={label}
-                className="w-full px-4 py-3 rounded-xl border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800 text-zinc-800 dark:text-white placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all"
+                className="w-full px-4 py-3 rounded-xl border border-zinc-700 bg-[#101217] text-white placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all"
                 aria-invalid={!!errors[name]}
               />
               {errors[name] && (
@@ -92,14 +92,14 @@ export const ContactForm: FC = () => {
         {/* Right Column: Message + Button */}
         <div className="flex flex-col gap-6">
           <div className="flex flex-col">
-            <label className="mb-2 text-sm font-medium text-zinc-700 dark:text-zinc-300">
+            <label className="mb-2 text-sm font-medium text-zinc-300">
               Your Message
             </label>
             <textarea
               {...register("message", { required: "Message is required" })}
               placeholder="Type your message..."
               rows={9}
-              className="w-full px-4 py-3 rounded-xl border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800 text-zinc-800 dark:text-white placeholder:text-zinc-400 dark:placeholder:text-zinc-500 resize-none focus:outline-none focus:ring-2 focus:ring-green-400 transition-all"
+              className="w-full px-4 py-3 rounded-xl border border-zinc-700 bg-[#101217] text-white placeholder:text-zinc-500 resize-none focus:outline-none focus:ring-2 focus:ring-green-400 transition-all"
               aria-invalid={!!errors.message}
             />
             {errors.message && (

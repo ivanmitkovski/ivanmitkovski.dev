@@ -7,7 +7,7 @@ export default function Contact() {
   const inView = useInView(ref, { once: true, amount: 0.3 });
 
   return (
-    <section ref={ref} className="px-7 py-10">
+    <section ref={ref} id="contact" className="px-7 pt-20 pb-16 scroll-mt-24">
       <motion.h3
         initial={{ opacity: 0, y: 60 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}

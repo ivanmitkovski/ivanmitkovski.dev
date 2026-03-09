@@ -35,14 +35,14 @@ export default function About() {
               I’m a full-stack software engineer dedicated to building
               intuitive, high-performance web applications. I approach every
               project with an eye for clean architecture and efficient
-              interfaces—whether that means crafting a real-time analytics
+              interfaces whether that means crafting a real-time analytics
               dashboard or designing a scalable API.
             </p>
             <p className="text-base sm:text-lg font-light leading-relaxed tracking-normal text-left">
               When I’m not architecting code, you’ll find me exploring new
               guitar riffs or hiking the trails around Skopje. I believe
               curiosity, creativity, and a willingness to venture beyond your
-              comfort zone are the true ingredients of innovation—and that’s
+              comfort zone are the true ingredients of innovation and that’s
               exactly how I tackle every challenge.
             </p>
           </div>

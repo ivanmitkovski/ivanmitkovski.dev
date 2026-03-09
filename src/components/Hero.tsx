@@ -75,19 +75,20 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="text-5xl sm:text-5xl md:text-6xl lg:text-8xl font-heading font-semibold tracking-wide text-white leading-tight"
+          className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-semibold tracking-wide text-white leading-tight"
         >
           {renderAnimatedText("Ivan")}
           <br />
           {renderAnimatedText("Mitkovski")}
-          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-green-300 via-white to-green-300 transform scale-x-0 hover:scale-x-100 transition-transform duration-300 ease-in-out" />
         </motion.h1>
 
-        <h2 className="mt-6 text-sm sm:text-lg md:text-xl lg:text-2xl font-thin tracking-widest px-1 flex justify-center lg:justify-start items-center font-mono text-green-400">
+        <h2 className="mt-6 text-sm sm:text-lg md:text-xl lg:text-2xl font-thin tracking-[0.25em] flex flex-wrap justify-center lg:justify-start items-center font-mono text-green-400">
           {displayedText}
-          <span className="w-[1ch] ml-1 animate-cursor">|</span>
+          <span className="w-[1ch] ml-1 animate-cursor flex-shrink-0">|</span>
           {!isTyping && (
-            <span className="ml-2 animate-dots hidden sm:inline-block">{dots}</span>
+            <span className="ml-2 animate-dots hidden sm:inline-block flex-shrink-0">
+              {dots}
+            </span>
           )}
         </h2>
       </div>

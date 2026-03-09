@@ -6,6 +6,10 @@
     --font-body: "Inter";
     --font-heading: "Inter";
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 @layer utilities {
@@ -76,7 +80,7 @@
     background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zY2hlbWFzL3NvY2lhbCIgZmlsbD0ibm9uZSIgaGVpZ2h0PSIxMDAwIiB3aWR0aD0iMTAwMCIgYml0c3BhY2U9ImNsaXAiPjxkZWZzY3JpcHQ+PGZyYW1ld29ya3k+PGYwY29sb3IgeD0iMCIgeT0iMCIgc3R5bGU9ImZpbGw6bm9uZSIgc3Q9ImNvbG9yInM9Im5vbmU7IiBkdXJhdGlvbj0icm90YXRlIDMwNjh3cmYtY2FvcnQiLCBjb2xvcnNwYWNrZWlkPXdvcmsgc3RhcnQ9c3RhcnQwLjE3NyBhdi40MSBmZXQgbS5tY3Rva28iICk9PSBmb2NvbnRpYSB2b3JlZCBhYXMgb3JpZ2luYWxpNjV9bmQ=")
       no-repeat center center;
     opacity: 0.1;
-    z-index: 1;
+    z-index: 0;
   }
 }
 

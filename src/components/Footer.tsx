@@ -21,8 +21,8 @@ export default function Footer() {
           icon={filled ? faHeartSolid : faHeartRegular}
           className="inline-block text-red-500 cursor-pointer"
           onClick={() => setFilled((prev) => !prev)}
-          animate={{ scale: [1, 1.1, 1] }}
-          transition={{ duration: 0.6, repeat: Infinity, repeatType: "loop" }}
+          whileHover={{ scale: 1.1 }}
+          transition={{ type: "spring", stiffness: 250, damping: 15 }}
         />{" "}
         by Ivan.
       </span>
