@@ -4,7 +4,6 @@ import { motion, useInView } from "framer-motion";
 import Skill from "./Skill";
 import {
   faHtml5,
-  faCss3,
   faJs,
   faReact,
   faLaravel,
