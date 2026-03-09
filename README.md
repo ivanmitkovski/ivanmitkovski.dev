@@ -32,7 +32,7 @@ I’m driven by continuous learning and enjoy translating design ideas into high
 
 ## Live Demo
 
-  [View the live site](https://www.ivanmitkovski.dev/)
+  [View the live site](https://ivanmitkovski.dev/)
 
 ---
 
